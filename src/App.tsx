@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MenuAppBar from './components/AppBar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Hero from './components/Hero';
+import { Divider } from '@mui/material';
+import Caurosel from './components/Caurosel';
 
+
+const Main = ()=>{
+  return(
+    <div className="App">
+        <MenuAppBar/>
+        <Hero/>
+        <Divider textAlign='left' sx={{width:'95%', m:4, color:'#15448a'}}>Overview</Divider>
+        {/* <Caurosel/> */}
+      </div>
+  )
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+      <Routes>
+          <Route path='/' element={<Main/>}/>
+        </Routes>
+    </Router>
   );
 }
 
