@@ -13,17 +13,13 @@ const eventSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    date: {
+    datetime: {
         type: Date,
         required: true
     },
-    time: {
-        type: Date,
-        required: true
-    },
-    bannerImage: String,
+    bannerImage: { type: String },
     eventImages: [{ type: String }],
-    eventStatus: String
+    eventStatus: { type: String }
 })
 
-module.exports = mongoose.model('events_table', eventSchema)
+module.exports = mongoose.model('events_data', eventSchema)
