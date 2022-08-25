@@ -19,7 +19,7 @@ const Main = ()=>{
 function App() {
   return (
     
-    <Router>
+    <Router basename='/rotaract'>
       <Routes>
           <Route path='/' element={<Main/>}/>
         </Routes>
