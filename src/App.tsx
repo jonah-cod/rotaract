@@ -1,19 +1,18 @@
 import React from 'react';
 import './App.css';
 import MenuAppBar from './components/AppBar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Hero from './components/Hero';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Divider } from '@mui/material';
-import Caurosel from './components/Caurosel';
+import Profiles from './components/Profiles';
+
 
 
 const Main = ()=>{
   return(
-    <div className="App">
+    <div className="App" >
         <MenuAppBar/>
-        <Hero/>
         <Divider textAlign='left' sx={{width:'95%', m:4, color:'#15448a'}}>Overview</Divider>
-        {/* <Caurosel/> */}
+        <Profiles/>
       </div>
   )
 }
