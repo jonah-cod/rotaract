@@ -1,7 +1,7 @@
 {
   "main.css": "/rotaract/static/css/main.fa2f2800.chunk.css",
-  "main.js": "/rotaract/static/js/main.8d6e2ff5.chunk.js",
-  "main.js.map": "/rotaract/static/js/main.8d6e2ff5.chunk.js.map",
+  "main.js": "/rotaract/static/js/main.773ab05a.chunk.js",
+  "main.js.map": "/rotaract/static/js/main.773ab05a.chunk.js.map",
   "static/js/1.c0ed5c63.chunk.js": "/rotaract/static/js/1.c0ed5c63.chunk.js",
   "static/js/1.c0ed5c63.chunk.js.map": "/rotaract/static/js/1.c0ed5c63.chunk.js.map",
   "runtime~main.js": "/rotaract/static/js/runtime~main.26d4a10d.js",
@@ -10,6 +10,6 @@
   "static/media/DSC_8494.jpg": "/rotaract/static/media/DSC_8494.bbda841f.jpg",
   "static/css/main.fa2f2800.chunk.css.map": "/rotaract/static/css/main.fa2f2800.chunk.css.map",
   "index.html": "/rotaract/index.html",
-  "precache-manifest.07cd6fd36a32b9ffd2e233fa1df2609d.js": "/rotaract/precache-manifest.07cd6fd36a32b9ffd2e233fa1df2609d.js",
+  "precache-manifest.943f0c35c6c5b367ee28cf5cb62f5d71.js": "/rotaract/precache-manifest.943f0c35c6c5b367ee28cf5cb62f5d71.js",
   "service-worker.js": "/rotaract/service-worker.js"
 }

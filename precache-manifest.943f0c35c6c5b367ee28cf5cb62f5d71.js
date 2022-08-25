@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8d6e2ff5404d78a40c2c",
+    "revision": "773ab05afd0fca8a0ce6",
     "url": "/rotaract/static/css/main.fa2f2800.chunk.css"
   },
   {
-    "revision": "8d6e2ff5404d78a40c2c",
-    "url": "/rotaract/static/js/main.8d6e2ff5.chunk.js"
+    "revision": "773ab05afd0fca8a0ce6",
+    "url": "/rotaract/static/js/main.773ab05a.chunk.js"
   },
   {
     "revision": "c0ed5c63c5add1d13cf8",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/rotaract/static/media/DSC_8494.bbda841f.jpg"
   },
   {
-    "revision": "8afc0b2ad088ad8e3e524e7cfbd02b68",
+    "revision": "d9621c7cda7814a27e6c17415485a3c8",
     "url": "/rotaract/index.html"
   }
 ];

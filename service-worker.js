@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rotaract/precache-manifest.07cd6fd36a32b9ffd2e233fa1df2609d.js"
+  "/rotaract/precache-manifest.943f0c35c6c5b367ee28cf5cb62f5d71.js"
 );
 
 workbox.clientsClaim();
