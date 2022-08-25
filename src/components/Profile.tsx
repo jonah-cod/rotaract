@@ -10,7 +10,7 @@ function Profile() {
         <CardMedia
         component="img"
         image={photo}
-        sx={{ height: 160}}
+        sx={{ height: 200}}
         alt="leader"
       />
       <CardContent sx={{border: "1px solid #a18b60", m: 2, mb:1, textAlign: "left"}}>
